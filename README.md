@@ -7,9 +7,9 @@ Ici se trouve les details du stage de fin de première année d'ingénierie que 
 
 ## Contexte
 
-Le glaucome est une neuropathie optique chronique et progressive constituant l'une des principales causes de cécité irréversible dans le monde. Son dépistage précoce est essentiel afin de ralentir son évolution par une prise en charge adaptée. 【1-2f3413】
+Le glaucome est une neuropathie optique chronique et progressive constituant l'une des principales causes de cécité irréversible dans le monde. Son dépistage précoce est essentiel afin de ralentir son évolution par une prise en charge adaptée. 
 
-Dans le cadre de mon stage de fin de première année à l'École Mohammadia d’Ingénieurs (EMI), effectué au Centre Hospitalier Ibn Sina de Rabat, j'ai réalisé une étude comparative de modèles de Deep Learning pour la détection automatique du glaucome à partir d'images du fond d’œil. 【1-2f3413】
+Dans le cadre de mon stage de fin de première année à l'École Mohammadia d’Ingénieurs (EMI), effectué au Centre Hospitalier Ibn Sina de Rabat, j'ai réalisé une étude comparative de modèles de Deep Learning pour la détection automatique du glaucome à partir d'images du fond d’œil. 
 
 
 ## Objectifs
@@ -24,7 +24,7 @@ L'étude vise également à :
 - Évaluer l'impact du prétraitement des images.
 - Comparer les performances sur deux jeux de données différents.
 - Analyser les métriques adaptées au dépistage médical.
-- Étudier la robustesse des modèles face à la variabilité des images rétiniennes. 【1-2f3413】
+- Étudier la robustesse des modèles face à la variabilité des images rétiniennes. 
 
 ## Datasets utilisés
 
@@ -48,7 +48,6 @@ Les données ont été réparties selon une stratégie stratifiée :
 - 15 % validation
 - 15 % test
 
-【1-2f3413】
 
 ## Architecture expérimentale
 
@@ -59,8 +58,6 @@ Le protocole expérimental repose sur huit entraînements indépendants :
 - 2 pipelines :
   - Images brutes
   - Images prétraitées
-
-Schéma de la démarche expérimentale : ![EMBEDDEDIMAGE](placeholder-1)
 
 ## Prétraitement des images
 
@@ -78,9 +75,6 @@ Deux approches ont été comparées :
 - Redimensionnement à 224 × 224
 - Normalisation adaptée au modèle
 
-Exemple de prétraitement : ![EMBEDDEDIMAGE](placeholder-2)
-
-【1-2f3413】
 
 ## Modèles étudiés
 
@@ -98,9 +92,6 @@ Exemple de prétraitement : ![EMBEDDEDIMAGE](placeholder-2)
 - Dernier bloc Transformer dégelé
 - Couche de classification adaptée
 
-Comparaison des architectures : ![EMBEDDEDIMAGE](placeholder-3)
-
-【1-2f3413】
 
 ## Technologies utilisées
 
@@ -113,7 +104,6 @@ Comparaison des architectures : ![EMBEDDEDIMAGE](placeholder-3)
 - Jupyter Notebook
 - Google Colaboratory
 
-【1-2f3413】
 
 ## Résultats obtenus
 
@@ -139,9 +129,6 @@ ViT-B/16 avec prétraitement :
 
 【1-2f3413】
 
-Matrices de confusion obtenues : ![EMBEDDEDIMAGE](placeholder-4)  
-![EMBEDDEDIMAGE](placeholder-5)
-
 ### Second dataset
 
 Les deux architectures ont obtenu :
@@ -149,9 +136,8 @@ Les deux architectures ont obtenu :
 - Accuracy ≈ 94–95 %
 - AUC > 0.97
 
-Malgré l'hétérogénéité des données et le fort déséquilibre des classes. 【1-2f3413】
+Malgré l'hétérogénéité des données et le fort déséquilibre des classes.
 
-Résultats du second dataset : ![EMBEDDEDIMAGE](placeholder-6)
 
 ## Principales conclusions
 
@@ -159,7 +145,7 @@ Résultats du second dataset : ![EMBEDDEDIMAGE](placeholder-6)
 - Le Vision Transformer atteint les meilleures performances de classement (AUC).
 - Les deux modèles présentent d'excellentes capacités de détection du glaucome.
 - La qualité des étiquettes des datasets reste un enjeu majeur pour les applications cliniques.
-- Les modèles de fondation spécialisés comme RETFound constituent une piste prometteuse pour de futurs travaux. 【1-2f3413】
+- Les modèles de fondation spécialisés comme RETFound constituent une piste prometteuse pour de futurs travaux. 
 
 ## Perspectives
 
@@ -169,19 +155,15 @@ Les améliorations envisagées incluent :
 - Vérification clinique des annotations.
 - Entraînements sur des bases de données plus larges.
 - Validation multi-centres.
-- Développement d'un système d'aide au diagnostic pour les ophtalmologues. 【1-2f3413】
+- Développement d'un système d'aide au diagnostic pour les ophtalmologues. 
 
 ## Structure du projet
 
 ```text
 project/
 │
-├── notebooks/
-├── datasets/
-├── models/
-├── results/
-├── figures/
-├── requirements.txt
+├── notebooks
+├── rapport
 └── README.md
 ```
 
