@@ -11,7 +11,6 @@ Le glaucome est une neuropathie optique chronique et progressive constituant l'u
 
 Dans le cadre de mon stage de fin de première année à l'École Mohammadia d’Ingénieurs (EMI), effectué au Centre Hospitalier Ibn Sina de Rabat, j'ai réalisé une étude comparative de modèles de Deep Learning pour la détection automatique du glaucome à partir d'images du fond d’œil. 【1-2f3413】
 
-Couverture du rapport : ![EMBEDDEDIMAGE](placeholder-0)
 
 ## Objectifs
 
